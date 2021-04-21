@@ -1,0 +1,46 @@
+#cabezera{
+  padding: 1px;
+  background-color:rgba(0, 0, 250, 0.5);
+  height: 370px;
+}
+.titulo{
+  position: absolute;
+  padding: 50px;
+  color: white;
+  top: 30%;
+}
+@media screen and (max-width: 700px){
+  .titulo{
+    font-size:38px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .titulo{
+    font-size:36px;
+  }
+}
+
+#info{
+  background: #fff;
+  color: #000;
+  text-align: center;
+  padding: 1px;
+}
+#info .contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.info-motel{
+  margin: 20px;
+}
+.info-motel img{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 7px solid #b71c1c;
+}
+.texto{
+  justify-content: center;
+}
